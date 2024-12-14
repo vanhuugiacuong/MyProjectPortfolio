@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website - Basic Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Akshar&family=Anton+SC&family=Permanent+Marker&family=Poppins:wght@300;400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css  ">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <link rel="manifest" href="/site.webmanifest">
+    <script src="https://kit.fontawesome.com/ff0ff53c15.js" crossorigin="anonymous"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon_io/favicon-16x16.png">
+</head>
+
+<body>
+    <header>
+        <h2 class="logo"><img src="/images/favicon_io/android-chrome-192x192.png" style="width: 50px;height: auto;">
+        </h2>
+        <nav class="navigation">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+            <a href="#portfolio">Portfolio</a>
+        </nav>
+    </header>
+    <!-- Home-Page -->
+    <section id="home" class="Home-Page">
+        <div class="header-text">
+            <div class="header-title">
+                <p class="paragraph">
+                <h1>-VCuong-</h1>
+                Hi, I'm <span>Văn Cường</span>
+                <br>
+                A web developer and designer with skills in HTML, CSS and JavaScript. I also have experience
+                using
+                Figma and Webflow to create beautiful websites.
+                </p>
+                <div class="icon">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-github"></a>
+                </div>
+            </div>
+            <div class="header-image">
+                <img loading="lazy" src="/images/s1.jpg" class="images">
+            </div>
+        </div>
+    </section>
+    <!-- about-from -->
+    <section id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <img loading="lazy" src="/images/s3.jpg" class="fade-in">
+                </div>
+                <div class="about-text">
+                    <h1>-About Me-</h1>
+                    <p>
+                        This website is to introduce myself and the projects and
+                        work I have done during my time in college majoring in software technology.
+                    </p>
+                    <button><span>My CV</span></button>
+                    <div class="tab-titles">
+                        <p class="tab-links" onclick="showTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="showTab('experience')">Experience</p>
+                        <p class="tab-links" onclick="showTab('college')">College</p>
+                    </div>
+                    <div class="tab-content" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Design Web/App interfaces</li>
+                            <li><span>HTML/CSS</span><br>Build responsive websites</li>
+                            <li><span>JavaScript</span><br>Develop interactive websites</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="experience">
+                        <ul>
+                            <li><span>2024</span><br>...</li>
+                            <li><span>2025</span><br>...</li>
+                            <li><span>2026</span><br>...</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="college">
+                        <ul>
+                            <li><span>2022</span><br>Information technology student from VanLangUniversity. </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- services-from -->
+    <section id="services">
+        <div class="container">
+            <div class="service-content">
+                <h1>-Services-</h1>
+                <p>
+                    I offer a range of services including web design, web development, and graphic design.
+                    I have experience using Figma and Webflow to create beautiful websites.
+                </p>
+                <div class="service-box">
+                    <div class="service">
+                        <i class="fa-solid fa-pen"></i>
+                        <h2>Web Design</h2>
+                        <p>Crafting Exceptional Websites and Applications with Modern Technologies</p>
+                    </div>
+                    <div class="service">
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Development</h2>
+                        <p>We build responsive and modern websites tailored to your needs.</p>
+                    </div>
+                    <div class="service">
+                        <i class="fa-solid fa-gears"></i>
+                        <h2>Maintenance & Support</h2>
+                        <p>Keep your digital products running smoothly with our reliable support.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact-from -->
+    <section id="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-left">
+                    <h1>-Contact-</h1>
+                    <p>
+                        If you would like to get in touch with me, please fill out the form below and I will get back to
+                        you as
+                        soon as possible.
+                    </p>
+                    <p><i class="fa-regular fa-paper-plane"></i>cuongtomato174@gmail.com</p>
+                    <br>
+                    <div class="icon">
+                        <a href="https://www.facebook.com/cuongvan174/" class="fa fa-facebook"></a>
+                        <a href="https://www.instagram.com/vancuongdayne/" class="fa fa-instagram"></a>
+                        <a href="" class="fa fa-github"></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form action="contact.php" method="post">
+                        <input type="text" name="Name" placeholder="Enter Your Name" required>
+                        <input type="email" name="email" placeholder="Enter Your Email" required>
+                        <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+                        <button type="submit"><span>Send</span></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- portfolio-from -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="portfolio-content">
+                <h1>-Portfolio-</h1>
+                <p>
+                    Here are some of the projects I have worked on during my time in college majoring in software
+                    technology.
+                </p>
+                <div class="portfolio-box">
+                    <div class="container">
+                        <div class="work-list">
+                            <div class="work">
+                                <img loading="lazy" src="https://via.placeholder.com/400" class="fade-in">
+                                <div class="layer">
+                                    <h3>Project 1</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, quidem.</p>
+                                    <a href=""><i class="fa-solid fa-square-check"></i></a>
+                                </div>
+                            </div>
+                            <div class="work">
+                                <img loading="lazy" src="https://via.placeholder.com/400" class="fade-in">
+                                <div class="layer">
+                                    <h3>Project 2</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, quidem.</p>
+                                    <a href=""><i class="fa-solid fa-square-check"></i></a>
+                                </div>
+                            </div>
+                            <div class="work">
+                                <img loading="lazy" src="https://via.placeholder.com/400" class="fade-in">
+                                <div class="layer">
+                                    <h3>Project 3</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, quidem.</p>
+                                    <a href=""><i class="fa-solid fa-square-check"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p>&copy; Văn Cường. All rights reserved.</p>
+        </footer>
+        <script src="script.js"></script>
+</body>
+
+</html>
