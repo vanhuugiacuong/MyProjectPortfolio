@@ -39,6 +39,12 @@ body {
     color: var(--font-color);
 }
 
+section {
+    display: block;
+    margin: 20px 0; /* Khoảng cách giữa các section * /* Khoảng cách bên trong section */ /* Hiệu ứng đổ bóng */
+}
+
+
 header {
     padding: 20px 50px;
     top: 0;
@@ -613,4 +619,71 @@ footer {
     .about-text button {
         margin: 20px auto; 
     }
+
+    /* Service section */
+    .service-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 150px;
+    }
+
+    .service-content h1 {
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    .service-content p {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .service-box {
+        margin: 30px;
+        display: flex;
+    }
+
+    /* contac-section */
+    .contact-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contact-content h1 {
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    .contact-left {
+        width: 300px;
+        margin: 30px;
+        margin-left: 50px;
+        
+        font-size: 20px;
+    }
+     .contact-left .icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+
+    .contact-right {
+        width: 100%;
+    }
+
+     /* Portfolio section  */
+    .portfolio-content h1 {
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    .portfolio-content p {
+        font-size: 20px;
+        text-align: center;
+    }
+    
 }
