@@ -443,7 +443,7 @@ form input,
 form textarea {
     width: 90%;
     height: auto;
-    border-radius: 5px;
+    border-radius: 10px;
     border: 0;
     background: #3f3f3fd6;
     color: #fff;
